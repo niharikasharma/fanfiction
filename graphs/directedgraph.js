@@ -39,7 +39,7 @@ $(document).ready(function(){
         // Send value to iframe
         // Parallel Co-ordiante Iframe
         iframe = document.getElementById('parallel_coord_graph').contentWindow;
-        iframe.postMessage(dataFile, "http://localhost:8080/parallelcoord.html");
+        iframe.postMessage(dataFile, "https://niharikasharma.github.io/fanfiction/parallelcoord.html");
 
 
         // Destroy Graph
