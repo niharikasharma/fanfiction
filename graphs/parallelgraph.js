@@ -43,7 +43,7 @@ $(document).ready(function(){
 
             pc1 = d3.parcoords()("#example1")
                     .data(data)
-                    .hideAxis(["id"])
+                    .hideAxis(["id", "ratingDescription"])
                     .composite("darken")
                     //.color(function(d) { return blue_to_brown(d['avgWords']); })  // quantitative color scale
                     .alpha(0.35)
