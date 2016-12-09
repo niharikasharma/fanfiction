@@ -41,9 +41,34 @@
     		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     		<script src="js/selectivizr-min.js"></script>
     	<![endif]-->
-       
+       <style>
+        .alert {
+            padding: 20px;
+            background-color: #f44336;
+            color: white;
+        }
+
+        .closebtn {
+            margin-left: 15px;
+            color: white;
+            font-weight: bold;
+            float: right;
+            font-size: 22px;
+            line-height: 20px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .closebtn:hover {
+            color: black;
+        }
+       </style>
     </head>
     <body style="background-color: #eddfd6;">
+        <div class="alert">
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+            <strong>Warning!</strong> This web page only works on Google chrome, please use Google chrome to see our visualization without any bug.
+        </div>
     <div id="fb-root"></div>
 
         <div id="site">
